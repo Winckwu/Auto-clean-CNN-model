@@ -9,6 +9,7 @@ This is our implementation for the paper:
 ### [imagedata](https://github.com/Winckwu/Auto-clean-CNN-model/tree/master/imgdata) 
 
 Data preprocessing scripts used in this thesis, 
+- `Validate` is the food materials datasets used for model validation, `all-others` are dirty images, and the other folders are clean food materials images datasets.
 - The two text files `train.txt` and `test.txt` are lists of training images and test images
 - Use `create_lmdb.sh` to call the convert_imageset command to convert the data format
 - Use `create_mean.sh` to calculate the mean and save the file
